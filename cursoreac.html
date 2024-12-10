@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+
+
+import React from 'react';
+
+function App() {
+  return (
+    <div
+      className="Inicio"
+      style={{
+        width: 381,
+        height: 844,
+        position: 'relative',
+        background: '#767474',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      }}
+    >
+      <div
+        className="CursoDeIntroducaoAProgramacao"
+        style={{
+          left: 25,
+          top: 35,
+          position: 'absolute',
+          color: 'white',
+          fontSize: 20,
+          fontFamily: 'Inter',
+          fontWeight: '400',
+          wordWrap: 'break-word',
+        }}
+      >
+        Curso de introducao a programacao
+      </div>
+      <img
+        className="Rectangle"
+        style={{
+          width: 419,
+          height: 283,
+          left: -4,
+          top: 104,
+          position: 'absolute',
+          border: '1px black solid',
+        }}
+        src="https://via.placeholder.com/419x283"
+        alt="Curso"
+      />
+      <div
+        className="AprendaOsFundamentosDaProgramacaoDeFormaSimplesEPratica"
+        style={{
+          left: 2,
+          top: 452,
+          position: 'absolute',
+          color: 'white',
+          fontSize: 12,
+          fontFamily: 'Roboto',
+          fontWeight: '400',
+          wordWrap: 'break-word',
+        }}
+      >
+        Aprenda os fundamentos da programacao de forma simples e pratica
+      </div>
+      <div
+        className="Rectangle1"
+        style={{
+          width: 200,
+          height: 54,
+          left: 80,
+          top: 586,
+          position: 'absolute',
+          background: '#1C23B0',
+        }}
+      />
+      <div
+        className="IniciarCurso"
+        style={{
+          left: 140,
+          top: 603,
+          position: 'absolute',
+          color: 'white',
+          fontSize: 16,
+          fontFamily: 'Inter',
+          fontWeight: '400',
+          wordWrap: 'break-word',
+        }}
+      >
+        Iniciar Curso
+      </div>
+    </div>
+  );
+}
+
+export default App;
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Bem-vindo à nossa plataforma!</h1>
+    <button class="btn" onclick="window.location.href='curso.html'">Iniciar curso</button>
+</div>
+
+</body>
+</html>
